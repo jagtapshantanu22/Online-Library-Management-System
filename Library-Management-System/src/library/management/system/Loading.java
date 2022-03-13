@@ -52,10 +52,10 @@ public class Loading extends JFrame implements Runnable {
             setContentPane(contentPane);
             contentPane.setLayout(null);
 
-            JLabel lbllibraryManagement = new JLabel("Smart Library v5.1");
-            lbllibraryManagement.setForeground(new Color(72, 209, 204));
-            lbllibraryManagement.setFont(new Font("Trebuchet MS", Font.BOLD, 35));
-            lbllibraryManagement.setBounds(130, 46, 500, 35);
+            JLabel lbllibraryManagement = new JLabel("            LMS");
+            lbllibraryManagement.setForeground(new Color(10, 0, 3));
+            lbllibraryManagement.setFont(new Font("Georgia", Font.BOLD, 35));
+            lbllibraryManagement.setBounds(130, 56, 500, 35);
             contentPane.add(lbllibraryManagement);
 	
             progressBar = new JProgressBar();
@@ -64,10 +64,10 @@ public class Loading extends JFrame implements Runnable {
             progressBar.setBounds(130, 135, 300, 25);
             contentPane.add(progressBar);
 
-            JLabel lblNewLabel_2 = new JLabel("Please Wait....");
-            lblNewLabel_2.setFont(new Font("Yu Gothic UI Semibold", Font.BOLD, 20));
-            lblNewLabel_2.setForeground(new Color(160, 82, 45));
-            lblNewLabel_2.setBounds(200, 165, 150, 20);
+            JLabel lblNewLabel_2 = new JLabel("  Please Wait....");
+            lblNewLabel_2.setFont(new Font("Georgia", Font.BOLD, 20));
+            lblNewLabel_2.setForeground(new Color(10, 0, 3));
+            lblNewLabel_2.setBounds(200, 185, 150, 20);
             contentPane.add(lblNewLabel_2);
 
             JPanel panel = new JPanel();

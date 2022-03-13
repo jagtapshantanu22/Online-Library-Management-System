@@ -56,15 +56,15 @@ public class Statistics extends JFrame{
 	contentPane.add(scrollPane);
 
         table = new JTable();
-	table.setBackground(new Color(224, 255, 255));
-	table.setForeground(new Color(128, 128, 0));
-	table.setFont(new Font("Trebuchet MS", Font.BOLD, 15));
+	table.setBackground(new Color(255, 255, 255));
+	table.setForeground(new Color(10, 0, 3));
+	table.setFont(new Font("Georgia", Font.BOLD, 15));
 	scrollPane.setViewportView(table);
 
 	JPanel panel = new JPanel();
-	panel.setBorder(new TitledBorder(new LineBorder(new Color(47, 79, 79), 2, true), "Issue-Book-Details",
-				TitledBorder.LEADING, TitledBorder.TOP, null, new Color(0, 128, 128)));
-	panel.setForeground(new Color(0, 128, 128));
+	panel.setBorder(new TitledBorder(new LineBorder(new Color(15, 79, 234), 2, true), "Issue-Book-Details",
+				TitledBorder.LEADING, TitledBorder.TOP, null, new Color(10, 0, 3)));
+	panel.setForeground(new Color(255, 255, 255));
 	panel.setBounds(26, 36, 737, 240);
         panel.setBackground(Color.WHITE);
 	contentPane.add(panel);
@@ -78,9 +78,9 @@ public class Statistics extends JFrame{
 		home.setVisible(true);
             }
 	});
-	l1.setForeground(new Color(204, 0, 102));
-	l1.setFont(new Font("Tahoma", Font.BOLD, 18));
-	ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/tenth.png"));
+	l1.setForeground(new Color(10, 0, 3));
+	l1.setFont(new Font("Georgia", Font.BOLD, 18));
+	ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/tenth.jpeg"));
         Image i2 = i1.getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         l1.setIcon(i3);
@@ -92,14 +92,14 @@ public class Statistics extends JFrame{
 	contentPane.add(scrollPane_1);
 
 	table_1 = new JTable();
-	table_1.setBackground(new Color(204, 255, 255));
-	table_1.setForeground(new Color(153, 51, 0));
-	table_1.setFont(new Font("Sitka Small", Font.BOLD, 12));
+	table_1.setBackground(new Color(255, 255, 255));
+	table_1.setForeground(new Color(10, 0, 3));
+	table_1.setFont(new Font("Georgia", Font.BOLD, 12));
 	scrollPane_1.setViewportView(table_1);
 
 	JPanel panel_1 = new JPanel();
-	panel_1.setBorder(new TitledBorder(new LineBorder(new Color(0, 204, 153), 2, true), "Return-Book-Details",
-		TitledBorder.RIGHT, TitledBorder.TOP, null, new Color(0, 102, 51)));
+	panel_1.setBorder(new TitledBorder(new LineBorder(new Color(15, 79, 234), 2, true), "Return-Book-Details",
+		TitledBorder.RIGHT, TitledBorder.TOP, null, new Color(10, 0, 3)));
 	panel_1.setBounds(22, 299, 741, 240);
         panel_1.setBackground(Color.WHITE);
 	contentPane.add(panel_1);

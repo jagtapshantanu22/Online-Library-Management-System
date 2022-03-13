@@ -65,10 +65,10 @@ public class StudentDetails extends JFrame implements ActionListener{
 	table.setFont(new Font("Trebuchet MS", Font.BOLD, 16));
 	scrollPane.setViewportView(table);
 
-	JButton b1 = new JButton("Search");
+	/*JButton b1 = new JButton("Search");
 	b1.addActionListener(this);
 	b1.setBorder(new LineBorder(new Color(255, 20, 147), 2, true));
-	ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/eight.png"));
+	ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/eight.jpeg"));
         Image i2 = i1.getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         b1.setIcon(i3);
@@ -79,7 +79,7 @@ public class StudentDetails extends JFrame implements ActionListener{
 
 	JButton b2 = new JButton("Delete");
 	b2.addActionListener(this);
-	ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/nineth.png"));
+	ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/nineth.jpeg"));
         Image i5 = i4.getImage().getScaledInstance(30, 30, Image.SCALE_DEFAULT);
         ImageIcon i6 = new ImageIcon(i5);
         b2.setIcon(i6);
@@ -87,20 +87,20 @@ public class StudentDetails extends JFrame implements ActionListener{
 	b2.setFont(new Font("Trebuchet MS", Font.BOLD, 18));
 	b2.setBorder(new LineBorder(new Color(255, 20, 147), 2, true));
 	b2.setBounds(712, 89, 138, 33);
-	contentPane.add(b2);
+	contentPane.add(b2);*/
 
-	JLabel l1 = new JLabel("Student Details");
-	l1.setForeground(new Color(102, 205, 170));
-	l1.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 26));
+	JLabel l1 = new JLabel("        Student Details");
+	l1.setForeground(new Color(10, 0, 3));
+	l1.setFont(new Font("Georgia", Font.BOLD , 26));
 	l1.setBounds(250, 20, 400, 47);
 	contentPane.add(l1);
 
 
 	search = new JTextField();
 	search.setBackground(new Color(255, 240, 245));
-	search.setBorder(new LineBorder(new Color(255, 105, 180), 2, true));
-	search.setForeground(new Color(47, 79, 79));
-	search.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 17));
+	search.setBorder(new LineBorder(new Color(255, 255, 255), 2, true));
+	search.setForeground(new Color(10, 0, 3));
+	search.setFont(new Font("Georgia", Font.BOLD , 17));
 	search.setBounds(189, 89, 357, 33);
 	contentPane.add(search);
 	search.setColumns(10);
@@ -116,7 +116,7 @@ public class StudentDetails extends JFrame implements ActionListener{
 	});
 	l2.setForeground(Color.GRAY);
 	l2.setFont(new Font("Trebuchet MS", Font.BOLD, 18));
-	ImageIcon i7 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/tenth.png"));
+	ImageIcon i7 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/tenth.jpeg"));
         Image i8 = i7.getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT);
         ImageIcon i9 = new ImageIcon(i8);
         l2.setIcon(i9);
@@ -124,8 +124,8 @@ public class StudentDetails extends JFrame implements ActionListener{
 	contentPane.add(l2);
 
 	JPanel panel = new JPanel();
-	panel.setBorder(new TitledBorder(new LineBorder(new Color(95, 158, 160), 3, true), "Student-Deatails",
-		TitledBorder.LEADING, TitledBorder.TOP, null, new Color(72, 209, 204)));
+	panel.setBorder(new TitledBorder(new LineBorder(new Color(15, 79, 234), 3, true), "Student-Details",
+		TitledBorder.LEADING, TitledBorder.TOP, null, new Color(10, 0, 3)));
 	panel.setBounds(68, 59, 790, 370);
         panel.setBackground(Color.WHITE);
 	contentPane.add(panel);

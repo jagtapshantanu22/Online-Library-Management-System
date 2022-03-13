@@ -24,7 +24,7 @@ public class AddBook extends JFrame implements ActionListener{
     }
 
     public AddBook() {
-        setBounds(600, 200, 518, 442);
+        setBounds(600, 200, 433, 427);
 	contentPane = new JPanel();
 	contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 	setContentPane(contentPane);
@@ -139,8 +139,8 @@ public class AddBook extends JFrame implements ActionListener{
 	contentPane.add(b2);
 
 	JPanel panel = new JPanel();
-	panel.setBorder(new TitledBorder(new LineBorder(new Color(138, 43, 226), 2), "Add Books", TitledBorder.LEADING,
-			TitledBorder.TOP, null, new Color(0, 0, 255)));
+	panel.setBorder(new TitledBorder(new LineBorder(new Color(15, 79, 234), 2), "Add Books", TitledBorder.LEADING,
+			TitledBorder.TOP, null, new Color(10, 0, 3)));
 	panel.setBounds(10, 29, 398, 344);
 	contentPane.add(panel);
         

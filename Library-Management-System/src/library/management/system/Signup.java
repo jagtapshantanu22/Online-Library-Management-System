@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package library.management.system;
 
 import java.awt.*;
@@ -108,8 +104,8 @@ public class Signup extends JFrame implements ActionListener{
 
 	JPanel panel = new JPanel();
 	panel.setForeground(new Color(34, 139, 34));
-	panel.setBorder(new TitledBorder(new LineBorder(new Color(128, 128, 0), 2), "Create-Account",
-			TitledBorder.LEADING, TitledBorder.TOP, null, new Color(34, 139, 34)));
+	panel.setBorder(new TitledBorder(new LineBorder(new Color(15, 79, 234), 2), "Create-Account",
+			TitledBorder.LEADING, TitledBorder.TOP, null, new Color(10, 0, 3)));
 	panel.setBounds(31, 46, 476, 296);
         panel.setBackground(Color.WHITE);
 	contentPane.add(panel);
